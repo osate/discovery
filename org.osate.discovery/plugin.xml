@@ -15,13 +15,14 @@
             description="Components provided by various organizations">
       </connectorCategory>
       <connectorDescriptor
+            categoryId="org.osate.discovery.seiComponentsCategory"
+            description="AADL to AltaRica Translator"
             id="org.osate.discovery.aadlToAltaRicaTranslator"
+            kind="feature"
+            license="EPL"
             name="AADL2AR"
             provider="CMU/SEI"
-            license="EPL"
-            description="AADL to AltaRica Translator"
-            siteUrl="https://osate-build.sei.cmu.edu/download/osate/experimental"
-            categoryId="org.osate.discovery.seiComponentsCategory">
+            siteUrl="https://osate-build.sei.cmu.edu/download/osate/experimental">
          <overview
                summary="AADL to AltaRica Translator">
          </overview>
@@ -32,6 +33,7 @@
       <connectorDescriptor
             categoryId="org.osate.discovery.seiComponentsCategory"
             id="org.osate.discovery.faceToAADLTranslator"
+            kind="feature"
             license="EPL"
             name="FACE Data Model to AADL Translator"
             provider="CMU/SEI"
@@ -41,9 +43,31 @@
          </iu>
       </connectorDescriptor>
       <connectorDescriptor
+            id="org.osate.discovery.ocarina"
+            name="OCARINA Connector"
+            provider="TBD"
+            kind="feature"
+            license="TBD"
+            description="TBD"
+            siteUrl="https://osate-build.sei.cmu.edu/download/osate/components/ocarina"
+            categoryId="org.osate.discovery.nonSEIComponentsCategory">
+         <icon
+               image32="TBD">
+         </icon>
+         <overview
+               summary=""
+               url="http://bless.santoslab.org"
+               screenshot="">
+         </overview>
+         <iu
+               id="org.osate.ocarina.feature">
+         </iu>
+      </connectorDescriptor>
+      <connectorDescriptor
             id="org.osate.discovery.cheddarPlugin"
             name="Cheddar Plugin"
             provider="Universit&#xe9; de Bretagne Occidentale"
+            kind="feature"
             license="GPL"
             description="Cheddar is a real-time scheduling analysis tool composed of a scheduling simulator and a set of schedulability tests."
             siteUrl="http://beru.univ-brest.fr/svn/CHEDDAR/trunk/src/osate/osate2-update-site"
@@ -64,6 +88,7 @@
             id="org.osate.discovery.blessAnnexSupport"
             name="BLESS Annex Support"
             provider="KSU &amp; Multitude Corp."
+            kind="feature"
             license="CC BY 4.0 / EULA"
             description="The Behavior Language for Embedded Systems with Software (BLESS) is an annex sublanguage of AADL to express behavior of components with state-transition machines."
             siteUrl="http://santoslab.org/pub/bless/update/site2.xml"
@@ -83,5 +108,28 @@
                id="com.multitude.bless.feature">
          </iu>
       </connectorDescriptor>
+<!--
+      <connectorDescriptor
+            id="org.osate.discovery.ramses"
+            name="RAMSES"
+            provider="TBD"
+            kind="feature"
+            license="TBD"
+            description="TBD"
+            siteUrl="TBD"
+            categoryId="org.osate.discovery.nonSEIComponentsCategory">
+         <icon
+               image32="TBD">
+         </icon>
+         <overview
+               summary=""
+               url="http://bless.santoslab.org"
+               screenshot="">
+         </overview>
+         <iu
+               id="TBD">
+         </iu>
+      </connectorDescriptor>
+-->
    </extension>
 </plugin>
