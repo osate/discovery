@@ -49,14 +49,14 @@
             kind="feature"
             license="TBD"
             description="TBD"
-            siteUrl="https://osate-build.sei.cmu.edu/download/osate/components/ocarina"
+            siteUrl="https://osate-build.sei.cmu.edu/download/p2/ocarina"
             categoryId="org.osate.discovery.nonSEIComponentsCategory">
-         <icon
+         <!--icon
                image32="TBD">
-         </icon>
+         </icon-->
          <overview
                summary=""
-               url="http://bless.santoslab.org"
+               url=""
                screenshot="">
          </overview>
          <iu
