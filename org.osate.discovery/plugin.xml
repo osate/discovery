@@ -47,9 +47,9 @@
             name="OCARINA Connector"
             provider="TBD"
             kind="feature"
-            license="TBD"
+            license="CPL 1.0"
             description="TBD"
-            siteUrl="https://osate-build.sei.cmu.edu/download/p2/ocarina"
+            siteUrl="https://osate-build.sei.cmu.edu/p2/ocarina"
             categoryId="org.osate.discovery.nonSEIComponentsCategory">
          <!--icon
                image32="TBD">
@@ -60,7 +60,7 @@
                screenshot="">
          </overview>
          <iu
-               id="org.osate.ocarina.feature">
+               id="org.osate.ocarina.feature.feature.group">
          </iu>
       </connectorDescriptor>
       <connectorDescriptor
@@ -102,10 +102,10 @@
                screenshot="images/bless-screenshot.jpg">
          </overview>
          <iu
-               id="edu.ksu.bless.feature">
+               id="edu.ksu.bless.feature.feature.group">
          </iu>
          <iu
-               id="com.multitude.bless.feature">
+               id="com.multitude.bless.feature.feature.group">
          </iu>
       </connectorDescriptor>
 <!--
@@ -123,7 +123,7 @@
          </icon>
          <overview
                summary=""
-               url="http://bless.santoslab.org"
+               url=""
                screenshot="">
          </overview>
          <iu
