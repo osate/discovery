@@ -86,10 +86,10 @@
       </connectorDescriptor>
       <connectorDescriptor
             id="org.osate.discovery.blessAnnexSupport"
-            name="BLESS Annex Support"
-            provider="KSU &amp; Multitude Corp."
+            name="BLESS Editor and Proof Assistant"
+            provider="Multitude Corporation"
             kind="feature"
-            license="CC BY 4.0 / EULA"
+            license="CC BY ND 4.0 / EULA"
             description="The Behavior Language for Embedded Systems with Software (BLESS) is an annex sublanguage of AADL to express behavior of components with state-transition machines."
             siteUrl="http://santoslab.org/pub/bless/p2/repository"
             categoryId="org.osate.discovery.nonSEIComponentsCategory">
@@ -97,15 +97,15 @@
                image32="images/bless-logo.png">
          </icon>
          <overview
-               summary="The Behavior Language for Embedded Systems with Software (BLESS) is an annex sublanguage of AADL to express behavior of components with state-transition machines.  BLESS is a superset of BA adding non-executed assertions expressing what is true about the system when in a state, or a point during execution of an action during transition.&#xA;&#xA;The goal of the BLESS language and tools is to enable the construction of proofs for AADL models that their (operational) behavior upholds their (declarative) specification. Therefore all specifications, programs, and executions be precise, mathematical objects, about which propositions can be made, and proven correct.  Correctness of containing components can be proved from proved-correct subcomponents and their connections.&#xA;&#xA;Code generation from BLESS state machines to both Slang and ISOSCELES tool chains produces executables.&#xA;&#xA;Providers:&#xA;The BLESS editors and translators are provided by Kansas State University under a Creative Commons Attribution 4.0 international license. &#xA;&#xA;The BLESS proof tool which generates verification conditions and transforms them into deductive proofs is provided by Multitude Corporation under a simple End User License Agreement.&#xA;&#xA;Icon made by Freepik from www.flaticon.com; licensed under CC BY 3.0"
-               url="http://bless.santoslab.org"
+               summary="The Behavior Language for Embedded Systems with Software (BLESS) is an annex sublanguage of AADL to express behavior of components with state-transition machines.  BLESS is a superset of BA adding non-executed assertions expressing what is true about the system when in a state, or a point during execution of an action during transition.&#xA;&#xA;The goal of the BLESS language and tools is to enable the construction of proofs for AADL models that their (operational) behavior upholds their (declarative) specification. Therefore all specifications, programs, and executions be precise, mathematical objects, about which propositions can be made, and proven correct.  Correctness of containing components can be proved from proved-correct subcomponents and their connections.&#xA;&#xA;Code generation from BLESS state machines to both Slang and ISOSCELES tool chains produces executables.&#xA;&#xA;Providers:&#xA;The BLESS editors and translators are provided under a Creative Commons Attribution 4.0 international license. &#xA;&#xA;The BLESS Proof Assistant which generates verification conditions and transforms them into deductive proofs is provided by Multitude Corporation under a simple End User License Agreement.&#xA;&#xA;Icon made by Freepik from www.flaticon.com; licensed under CC BY 3.0"
+               url="http://www.multitude.net"
                screenshot="images/bless-screenshot.jpg">
          </overview>
          <iu
-               id="edu.ksu.bless.feature.feature.group">
+               id="com.multitude.aadl.bless.feature">
          </iu>
          <iu
-               id="com.multitude.bless.feature.feature.group">
+               id="com.multitude.bless.feature">
          </iu>
       </connectorDescriptor>
 <!--
