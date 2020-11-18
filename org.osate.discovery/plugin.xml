@@ -108,6 +108,23 @@
                id="com.multitude.bless.feature">
          </iu>
       </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="org.osate.discovery.seiComponentsCategory"
+            description="The Architecture Supported Audit Processor (ASAP) provides safety-specific views of a system."
+            id="org.osate.discovery.asap"
+            license="EPLv2.0"
+            name="ASAP (Safety Views)"
+            provider="CMU/SEI"
+            siteUrl="https://osate-build.sei.cmu.edu/download/osate/experimental/osate2-asap/">
+         <overview
+               screenshot="images/asap-screenshot.png"
+               summary="The Architecture-Supported Audit Processor (ASAP) is a plugin to OSATE that presents safety-specific representations of a system. Background and explanation can be found in the publication &quot;Architecture-Supported Audit Processor: Interactive, Query-Driven Assurance&quot; (currently unpublished, contact the maintainer for a preprint)."
+               url="https://github.com/osate/osate2-asap">
+         </overview>
+         <iu
+               id="org.osate.asap.feature">
+         </iu>
+      </connectorDescriptor>
 <!--
       <connectorDescriptor
             id="org.osate.discovery.ramses"
