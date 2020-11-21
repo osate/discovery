@@ -91,7 +91,7 @@
             kind="feature"
             license="CC BY ND 4.0 / EULA"
             description="The Behavior Language for Embedded Systems with Software (BLESS) is an annex sublanguage of AADL to express behavior of components with state-transition machines."
-            siteUrl="http://santoslab.org/pub/bless/p2/repository"
+            siteUrl="http://multitude.net/p2/repository"
             categoryId="org.osate.discovery.nonSEIComponentsCategory">
          <icon
                image32="images/bless-logo.png">
