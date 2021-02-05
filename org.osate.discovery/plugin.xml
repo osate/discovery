@@ -125,28 +125,26 @@
                id="org.osate.asap.feature">
          </iu>
       </connectorDescriptor>
-<!--
       <connectorDescriptor
             id="org.osate.discovery.ramses"
-            name="RAMSES"
-            provider="TBD"
+            name="RAMSES-2"
+            provider="TELECOM Paris"
             kind="feature"
-            license="TBD"
-            description="TBD"
-            siteUrl="TBD"
+            license="EPL 2.0"
+            description="RAMSES (Refinement of AADL Models for Synthesis of Embedded Systems) compiles AADL models into code for ARINC653, POSIX, and OSEK compliant operating systems."
+            siteUrl="https://mem4csd.telecom-paristech.fr/download/update-site/"
             categoryId="org.osate.discovery.nonSEIComponentsCategory">
          <icon
-               image32="TBD">
+               image32="images/logo_ramses_64.jpg">
          </icon>
          <overview
-               summary=""
-               url=""
-               screenshot="">
+               summary="RAMSES (Refinement of AADL Models for Synthesis of Embedded Systems) is a model transformation and code generation tool that produces C source code for POSIX, ARINC653, or OSEK compliant operating systems. RAMSES is a plugin of OSATE2 that proceeds by refinement : it produces refined AADL models as intermediate steps towards code generation. This refined model includes a behavior annex subclause that expresses the behavior resulting from the expansion of AADL components, connections, and behavior. It is then transformed into C source code, as well as Makefiles guiding the target platform compiler towards the production of an executable code."
+               url="https://mem4csd.telecom-paristech.fr"
+               screenshot="images/ramses_acg_process.jpg">
          </overview>
          <iu
-               id="TBD">
+               id="fr.mem4csd.ramses.integration.feature">
          </iu>
       </connectorDescriptor>
--->
    </extension>
 </plugin>
