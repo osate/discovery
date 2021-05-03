@@ -77,7 +77,7 @@
          </icon>
          <overview
                summary="Cheddar is a real-time scheduling analysis tool composed of a scheduling simulator and a set of schedulability tests. &#xA;&#xA;This plugin allows to generate Cheddar models to verify schedulability of uniprocessor and multiprocessor real-time systems."
-               url="http://beru.univ-brest.fr/~singhoff/cheddar/"
+               url="http://beru.univ-brest.fr/cheddar/"
                screenshot="images/cheddar_screenshot.jpg">
          </overview>
          <iu
