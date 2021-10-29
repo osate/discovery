@@ -146,5 +146,39 @@
                id="fr.mem4csd.ramses.integration.feature">
          </iu>
       </connectorDescriptor>
+      <connectorDescriptor
+            id="org.osate.discovery.agree"
+            name="AGREE"
+            provider="Collins Aerospace"
+            kind="feature"
+            license="BSD-3"
+            description="The Assume Guarantee REasoning Environment (AGREE) is a compositional, assume-guarantee-style model checker for AADL models."
+            siteUrl="https://raw.githubusercontent.com/loonwerks/AGREE-Updates/master"
+            categoryId="org.osate.discovery.nonSEIComponentsCategory">
+         <overview
+               summary="The Assume Guarantee REasoning Environment (AGREE) is a compositional, assume-guarantee-style model checker for AADL models. It is compositional in that it attempts to prove properties about one layer of the architecture using properties allocated to subcomponents. The composition is performed in terms of assumptions and guarantees that are provided for each component. Assumptions describe the expectations the component has on the environment, while guarantees describe bounds on the behavior of the component. AGREE uses k-induction as the underlying algorithm for model checking."
+               url="http://loonwerks.com/tools/agree.html">
+         </overview>
+         <iu
+               id="com.rockwellcollins.atc.agree.feature.feature.group">
+         </iu>
+      </connectorDescriptor>
+      <connectorDescriptor
+            id="org.osate.discovery.resolute"
+            name="Resolute"
+            provider="Collins Aerospace"
+            kind="feature"
+            license="BSD-3"
+            description="Resolute is a language and tool for developing architectural assurance cases."
+            siteUrl="https://raw.githubusercontent.com/loonwerks/Resolute-Updates/master"
+            categoryId="org.osate.discovery.nonSEIComponentsCategory">
+         <overview
+               summary="Resolute is a language and tool for developing architectural assurance cases. A user specifies rules for constructing assurance cases and provides an architectural model. Resolute instantiates those rules based on the architectural model and searches for a complete assurance case. The rules are specified in a Prolog-like logical language, and the architectural model is specified in AADL."
+               url="http://loonwerks.com/tools/resolute.html">
+         </overview>
+         <iu
+               id="com.rockwellcollins.atc.resolute.feature.feature.group">
+         </iu>
+      </connectorDescriptor>
    </extension>
 </plugin>
