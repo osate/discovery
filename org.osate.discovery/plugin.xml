@@ -14,9 +14,14 @@
             name="Non SEI Components"
             description="Components provided by various organizations">
       </connectorCategory>
+      <connectorCategory
+            id="org.osate.discovery.experimentalComponentsCategory"
+            name="Experimental SEI Components"
+            description="Experimental / unmaintained components provided by the Software Engineering Institute">
+      </connectorCategory>
       <connectorDescriptor
-            categoryId="org.osate.discovery.seiComponentsCategory"
-            description="AADL to AltaRica Translator"
+            categoryId="org.osate.discovery.experimentalComponentsCategory"
+            description="AADL to AltaRica Translator (experimental)"
             id="org.osate.discovery.aadlToAltaRicaTranslator"
             kind="feature"
             license="EPL"
@@ -178,6 +183,27 @@
          </overview>
          <iu
                id="com.rockwellcollins.atc.resolute.feature.feature.group">
+         </iu>
+      </connectorDescriptor>
+      <connectorDescriptor
+            id="org.osate.discovery.mixedtrust"
+            name="Mixed-trust Scheduling Analysis"
+            provider="TBD"
+            kind="feature"
+            license="EPL 2.0"
+            description="TBD"
+            siteUrl="https://osate-build.sei.cmu.edu/p2/osate2-mixedtrust"
+            categoryId="org.osate.discovery.experimentalComponentsCategory">
+         <!--icon
+               image32="TBD">
+         </icon-->
+         <overview
+               summary=""
+               url=""
+               screenshot="">
+         </overview>
+         <iu
+               id="org.osate.analysis.mixedtrust.feature.feature.group">
          </iu>
       </connectorDescriptor>
    </extension>
