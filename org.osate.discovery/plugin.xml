@@ -54,7 +54,7 @@
             license="BSD-SEI"
             name="Contract Annex"
             provider="CMU/SEI"
-            siteUrl="https://osate-build.sei.cmu.edu/p2/contract-annex">
+            siteUrl="https://osate-build.sei.cmu.edu/download/osate/components/contract-annex">
          <iu
                id="org.osate.contract.feature">
          </iu>
