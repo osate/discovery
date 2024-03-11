@@ -48,6 +48,18 @@
          </iu>
       </connectorDescriptor>
       <connectorDescriptor
+            categoryId="org.osate.discovery.seiComponentsCategory"
+            id="org.osate.discovery.contractAnnex"
+            kind="feature"
+            license="BSD-SEI"
+            name="Contract Annex"
+            provider="CMU/SEI"
+            siteUrl="https://osate-build.sei.cmu.edu/p2/contract-annex">
+         <iu
+               id="org.osate.contract.feature">
+         </iu>
+      </connectorDescriptor>
+      <connectorDescriptor
             id="org.osate.discovery.ocarina"
             name="OCARINA Connector"
             provider="TBD"
